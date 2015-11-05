@@ -9,11 +9,11 @@
         <relativePath />
     </parent>
 
-    <artifactId>sonar-gerrit</artifactId>
-    <version>1.0.4</version>
+    <artifactId>hudson-sonar-gerrit</artifactId>
+    <version>1.0.4-h</version>
     <packaging>hpi</packaging>
 
-    <name>Sonar Gerrit Plugin</name>
+    <name>Hudson Sonar Gerrit Plugin</name>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Sonar+Gerrit</url>
     <licenses>
         <license>
@@ -38,7 +38,7 @@
         <connection>scm:git:ssh://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/jenkinsci/${project.artifactId}-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-      <tag>sonar-gerrit-1.0.4</tag>
+      <tag>hudson-sonar-gerrit-1.0.4-h</tag>
   </scm>
 
     <repositories>
